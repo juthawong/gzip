@@ -1,6 +1,6 @@
 {
   "name": "mako-gzip",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A mako plugin for compressing files using gzip",
   "keywords": [
     "mako-plugin",
