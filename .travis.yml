@@ -11,3 +11,11 @@ after_success:
 cache:
   directories:
     - node_modules
+deploy:
+  provider: npm
+  email: dominic@dbarnes.info
+  api_key:
+    secure: EeUd/V2eGd/zs+41JQ6+0gOyIOQndTw0JYc2pcS6U3kq/uxYz2hhO8l+3zZ+3ulJMqZVqWN8CG/pY8XstIB3ZPYOd/PMeGMFKU3BsWajaIPZXhSUXVjVn0pK0KnsGgIVIu1awOMipy8lkbc+O1RFR27QPTuhRLIMZ/HQhH7CcYdN0mzNWgxwu63/vss791jfOR6EKAfc/KBpzfhrhuQu6uimbUfWcZcpPrBw+El12dtZ0tZikejZ9lEls3Rr2EkFMlFPguNvGl08FVaHkMZ/p7whDlYo01xy1Zu9geIRdBVOXAUxbxM2RA2Rb0D1COedOPYBHjPjclQPXvWsWMAfVEgbfasm3lChe8RwVElzgKpMjpNqYTV6XsrNuBByeImBrruxWMOXdkHy9ZlPV0IqDn+JnUNNWKk1UnZ2I7qD7EaLs5ad2v8fYSEe0AwZoMgUbHOv1AaLVDzcQ/3N/Q4uOxg4NiZjgVYomY+npvvi+K/w1oRDIuV+yhQTYc/Pyb95P4c6Dp/4ekIOUVh6fo6J3oTpypOzt8gfVD1DiPbDa8swjoczYjq7CJUdpaKnLxpfRS21K/S3GSzp5wp6U6Bz1E3WS6AbqtWjEpWtT41HbdF1Cv89y80rpUA/YP6HPe08SDmAZgaVE8ocjUGSyg38Ak4WtESsuwlk+ms3DDY3wRo=
+  on:
+    tags: true
+    repo: makojs/gzip
