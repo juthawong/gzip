@@ -15,7 +15,7 @@
     "mako-utils": "^0.2.1"
   },
   "peerDependencies": {
-    "mako": "^0.13.0"
+    "mako": "^1.0.0"
   },
   "devDependencies": {
     "buffer-equal": "^1.0.0",
@@ -23,7 +23,7 @@
     "chai-as-promised": "^5.1.0",
     "istanbul": "^0.4.3",
     "istanbul-coveralls": "^1.0.3",
-    "mako": "^0.13.0",
+    "mako": "^1.0.0",
     "mocha": "^3.0.0",
     "standard": "^8.0.0",
     "uid": "0.0.2"
