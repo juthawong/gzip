@@ -7,6 +7,7 @@
 [![coverage][coveralls-badge]][coveralls]
 [![npm dependencies][david-badge]][david]
 [![npm dev dependencies][david-dev-badge]][david-dev]
+[![nsp status][nsp-badge]][nsp]
 [![code style][standard-badge]][standard]
 
 ## Purpose
@@ -21,16 +22,18 @@
 The list of file extensions to apply this plugin for.
 
 
-[mako]: https://github.com/makojs/core
-[coveralls]: https://coveralls.io/github/makojs/gzip
 [coveralls-badge]: https://img.shields.io/coveralls/makojs/gzip.svg
-[david]: https://david-dm.org/makojs/gzip
+[coveralls]: https://coveralls.io/github/makojs/gzip
 [david-badge]: https://img.shields.io/david/makojs/gzip.svg
-[david-dev]: https://david-dm.org/makojs/gzip#info=devDependencies
 [david-dev-badge]: https://img.shields.io/david/dev/makojs/gzip.svg
-[npm]: https://www.npmjs.com/package/mako-gzip
+[david-dev]: https://david-dm.org/makojs/gzip#info=devDependencies
+[david]: https://david-dm.org/makojs/gzip
+[mako]: https://github.com/makojs/core
 [npm-badge]: https://img.shields.io/npm/v/mako-gzip.svg
-[standard]: http://standardjs.com/
+[npm]: https://www.npmjs.com/package/mako-gzip
+[nsp-badge]: https://nodesecurity.io/orgs/mako/projects/f3f1b603-df5a-4b5d-bde0-650ffcbd28ec/badge
+[nsp]: https://nodesecurity.io/orgs/mako/projects/f3f1b603-df5a-4b5d-bde0-650ffcbd28ec
 [standard-badge]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
-[travis]: https://travis-ci.org/makojs/gzip
+[standard]: http://standardjs.com/
 [travis-badge]: https://img.shields.io/travis/makojs/gzip.svg
+[travis]: https://travis-ci.org/makojs/gzip
