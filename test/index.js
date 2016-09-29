@@ -2,16 +2,14 @@
 
 'use strict'
 
+let assert = require('chai').assert
 let bufferEqual = require('buffer-equal')
-let chai = require('chai')
 let fs = require('fs')
 let gzip = require('..')
 let mako = require('mako')
 let path = require('path')
 let zlib = require('zlib')
 
-chai.use(require('chai-as-promised'))
-let assert = chai.assert
 let fixture = path.resolve.bind(path, __dirname, 'fixtures')
 
 describe('gzip plugin', function () {
