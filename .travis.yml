@@ -21,3 +21,4 @@ deploy:
   on:
     tags: true
     repo: makojs/gzip
+    node: 6
